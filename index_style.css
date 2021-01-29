@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearAll{
+    content: "";
+    display:block;
+    clear: both;
+}
+i{
+    margin-right: 1%;
+}
+img{
+    width: 100%;
+}
+.row{
+    width: 73%;
+    display: block;
+    margin: 0 auto;
+}
+.DauCach{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+ul{
+    list-style-type: none;
+}
+.TieuDe{
+    margin: 0 auto;
+    text-align: center;
+}
+.TenTieuDe{
+    font-size: 30px;
+}
+.ChonTieuDe{
+    font-size: 18px;
+    margin-left: 1%;
+    padding: 0.4%;
+
+}
+.ChonTieuDe a{
+    text-decoration: none;
+    color: black;
+}
+.ChonTieuDe a:hover{
+    cursor: pointer;
+}
+.TenSanPham{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+.GiaSanPham{
+    display: block;
+    text-align: center;
+}
+/* -------------------------------------------------------SanPhamMoi---------------------------------------------------------------- */
+#SanPhamMoi{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+#HinhAnhSanPhamMoi ul li{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 21%;
+}
+/* -----------------------------------------------------------XemTatCaSanPhamMoi--------------------------------------------------------- */
+.TieuDeXemTatCaSanPhamMoi{
+    padding: 4%;
+}
+.TieuDeXemTatCaSanPhamMoi:hover{
+    cursor: pointer;
+}
+.XemTatCaSanPhamMoi{
+    background: black;
+    width: 20%;
+    padding: 1.7%;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+/* -------------------------------------------------------------SanPhamKhac---------------------------------------------------------------------- */
+#SanPhamKhac ul li{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    left: 2%;
+    margin-left: 2.7%;
+}
+#SanPhamKhac ul li .row{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.TenTheLoai{
+    display: block;
+    padding: 2%;
+    font-size: 35px;
+    color: rgb(15, 12, 12);
+}
+.XemThem{
+    display: block;
+    padding: 5%;
+    text-decoration: none;
+    color:black;
+    width: 50%;
+    text-align: center;
+}
+/* --------------------------------------------------------------SanPhamNam---------------------------------------------------------------------- */
+#SanPhamNam{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+#HinhAnhSanPhamNam ul li{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 21%;
+}
+/* -------------------------------------------------------------PhuKien----------------------------------------------------------------------- */
+#PhuKienMoi{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2%;
+    border-top: 1px solid lightsalmon;
+}
+#HinhAnhPhuKien ul li{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 21%;
+}
+/* --------------------------------------------------------------footer---------------------------------------------------------------------- */
+#footer{
+    background: whitesmoke;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+#footer .row{
+    padding-top: 3%;
+}
+.NoiDungFooter p{
+    margin-top: 2%;
+}
+#NoiDung1{
+    float:left;
+    width: 33%;
+    padding-left: 2%;
+    font-size: 20px;
+}
+#NoiDung2{
+    float:left;
+    width: 33%;
+    padding-left: 2%;
+    font-size: 20px;
+    border-left: 1px solid rgb(177, 174, 174);
+    border-right: 1px solid rgb(177, 174, 174);
+}
+#NoiDung3{
+    float:left;
+    width: 33%;  
+    padding-left: 2%;
+    font-size: 20px;
+}
+.TieuDeNoiDung p{
+    margin-top: 6%;
+}
+#BanQuyen{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 1%;
+}
+#BanQuyen span{
+    font-size: 17px;
+}
